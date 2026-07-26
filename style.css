@@ -2,11 +2,12 @@
    Base
 ------------------------- */
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
 body {
     margin: 0;
     background: #faf7f0;
     color: #3d4035;
-    font-family: "Arial", sans-serif;
+    font-family: "Inter", sans-serif;
     line-height: 1.7;
 }
 
@@ -80,7 +81,7 @@ nav a:hover {
 
 
 .hero h1 {
-    font-family: Georgia, serif;
+    font-family: "Cormorant Garamond", serif;
     font-size: 4rem;
     line-height: 1.15;
     color: #53664d;
@@ -118,7 +119,7 @@ nav a:hover {
 
 
 h2 {
-    font-family: Georgia, serif;
+    font-family: "Cormorant Garamond", serif;
     color: #53664d;
     font-size: 2.5rem;
 }
@@ -131,24 +132,19 @@ h2 {
 
 
 .quote-section {
-    padding: 90px 10%;
+    padding: 120px 10%;
     display: flex;
     justify-content: center;
 }
 
-
 blockquote {
-    max-width: 900px;
-    width: 100%;
     margin: 0;
-    padding: 50px 70px;
-    background: #ebe6f2;
-    border-radius: 25px;
     text-align: center;
-    font-family: Georgia, serif;
-    font-size: 2rem;
+    font-family: "Caveat", cursive;
+    font-size: 3rem;
     line-height: 1.4;
-    color: #53664d;
+    color: #5a6a54;
+    max-width: 900px;
 }
 
 
