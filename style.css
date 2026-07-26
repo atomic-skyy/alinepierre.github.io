@@ -130,15 +130,25 @@ h2 {
 ------------------------- */
 
 
+.quote-section {
+    padding: 90px 10%;
+    display: flex;
+    justify-content: center;
+}
+
+
 blockquote {
-    margin: 35px auto;
-    padding: 25px;
+    max-width: 900px;
+    width: 100%;
+    margin: 0;
+    padding: 50px 70px;
     background: #ebe6f2;
-    border-radius: 20px;
-    font-family: Georgia, serif;
-    font-size: 1.3rem;
+    border-radius: 25px;
     text-align: center;
-    max-width: 600px;
+    font-family: Georgia, serif;
+    font-size: 2rem;
+    line-height: 1.4;
+    color: #53664d;
 }
 
 
